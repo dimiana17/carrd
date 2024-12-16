@@ -34,6 +34,7 @@ i:hover{
     color: #D6D4DF;
 }
 .button{
+    font-weight: 600;
     display: inline-block;
     border-radius: 6px;
     color: #FFFFFF;
