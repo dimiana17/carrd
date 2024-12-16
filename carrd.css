@@ -1,0 +1,251 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E7AF97;
+    color: #E7AF97;
+    margin: 40px;
+}
+.tabs{
+    border-radius: 7px;
+    position: absolute;
+    height: 47px;
+    opacity: .98;
+    background-color: #353642;
+    right: 20px;
+    top: 20px;
+}
+.tabs i{
+    padding: 15px 19px;
+    color: #CDCDD0;
+    font-size: 18.5px;
+}
+.tabs i:hover{
+    padding: 15px 23px;
+    color: white;
+    font-size: 18.5px;
+}
+/*----------------------------------------------------*/
+.slider{
+    height: 600px;
+    color: #CDCDD0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 800px;
+    opacity: .98;
+    background-color: #353642;
+    display: inline-block;
+    padding: 20px;
+}
+.slider .icons{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #21222a;
+}
+.slider .icon{
+    display: inline-block;
+    margin: 0;
+}
+
+.slider .icon i{
+    padding: 13px 13px;
+    color: #CDCDD0;
+    font-size: 24px;
+}
+.slider .icon:hover{
+    background-color: rgba(255, 255, 255, 0.084);
+    margin: 0;
+    color: white;
+}
+.slider .icon:hover i{
+    padding: 13px 13px;
+    color: white;
+    font-size: 24px;
+}
+.slider .exit{
+    margin: 35px 5px 5px;
+    text-align: right;
+    padding: 10px 10px 8px;
+}
+
+.slider .exit i{
+    color: #cdcdd05d;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+
+.slider .exit i:hover{
+    color: #cdcdd099;
+    padding-left: 12px;
+    font-size: 18px;
+}
+.slider #title{
+   
+    font-family:fantasy;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.slider #subTitle{
+   
+    font-family:fantasy;
+    color: white;
+    font-size: 1.02em;
+    font-weight: 700;
+}
+
+.slider .attr{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.056);
+    padding: 15px;
+}
+.slider .color{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.056);
+    padding: 4px 6px;
+}
+
+.slider .attr i{
+    padding-left: 228px;
+    color: #CDCDD0;
+}
+.slider .color #color{
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-color: #E7AF97;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+.slider .color div{
+    width: 36px;
+    height: 36px;
+    
+    display: inline-block;
+    
+}
+
+.slider .bottom{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 13px;
+    background-color: #33ADA9;
+}
+#button{
+    font-size: 1.3em;
+}
+/*----------------------------------------------------*/
+
+.card{
+    margin: auto;
+    background-color: #323033;
+    width: 270px;
+    border-radius: 18px;
+    padding-top: 110px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+.card .title{
+    font-size: 2.5em;
+}
+.card p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 100;
+    color: #E7AF97;
+    margin-bottom: 20px;
+}
+ol{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+li{
+    padding: 7px;
+    display: inline-block;
+}
+li div{
+    text-align: center;
+    border-radius: 17px;
+    width: 35px;
+    height: 35px;
+    background-color: #E7AF97;
+    font-size: 20px;
+    color: #323033;
+    display: inline-block;
+}
+li:hover div{
+    text-align: center;
+    border-radius: 20px;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    font-size: 20px;
+    color: #323033;
+    display: inline-block;
+}
+li div i{
+    margin: auto;
+    padding-top: 8px ;
+}
+li:hover div i{
+    margin: auto;
+    padding-top: 12px ;
+}
+.hr{
+    top: 400px;
+    left: 10px;
+    position: absolute;
+    padding-left: 0;
+    margin-left: 0;
+    margin: 0;
+    width: 300%;
+    border-bottom: .1px solid #E7AF97;
+}
+.data, .data-two{
+    
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 17px;
+    border-radius: 12px;
+    border: 1px solid #E7AF97;
+    
+    margin-bottom: 0px;
+}
+.data{
+    position: relative;
+    margin-top: 80px;
+}
+.data-two{
+    position: relative;
+    margin-top: 20px;
+}
+.data i, .data-two i{
+    position: absolute;
+    right: 20px;
+    color: #E7AF97;
+    font-size: 17px;
+}
+.data:hover, .data-two:hover{
+    color: white;
+    padding: 19px;
+    border: 1px solid white;
+}
+.data:hover i, .data-two:hover i{
+    color: white;
+    
+}
+#last{
+   margin-bottom: 30px;
+}
+
+
+

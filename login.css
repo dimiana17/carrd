@@ -1,0 +1,46 @@
+body{
+    background-color: #3E4A84;
+    background-size: cover;
+    margin: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.first-div{
+    text-align: center;
+}
+.first-div img{
+    width: 100px;
+}
+.first-div #header{
+    
+    font-weight: 600;
+    font-size: 3.5em;
+    color: #FFFFFF;
+}
+.first-div #subHeader{
+    
+    color: #D6D4DF;
+}
+.button{
+    display: inline-block;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+#startingButton{
+    margin: 25px 25px 11px;
+    padding: 18px 45px;
+    background-color: #33AEAA;
+    border: 2px solid #33AEAA;
+
+}
+#loginButton{
+    margin: 11px 25px 18px;
+    padding: 18px 105px;   
+    background-color: #33aeaa00;
+    border: 2px solid #d6d4df5a;
+}
+#smallButton{
+    margin: 30px 25px 18px;
+    padding: 10px 20px;   
+    background-color: #33aeaa00;
+    border: 2px solid #d6d4df5a;
+}

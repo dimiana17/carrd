@@ -1,0 +1,344 @@
+body{
+    background-color: #24252D;
+    margin: 35px 40px;
+    font-size: 1em;
+}
+.buttons{
+    margin-bottom: 35px;
+}
+.btn{
+    border: 0;
+    background-color: #353642;
+    padding: 13px 22px;
+    color: #eaeaebbd;
+    border-radius: 8px;
+    font-weight: 100;
+}
+#icon{
+    padding-right: 8px;
+}
+#icon2{
+    width: 11px;
+    height: 8px;
+    border: 2px Dotted #eaeaebbd;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.btn:hover{
+    color: white;
+}
+.btn:hover #icon2{
+    border-color: white;
+}
+
+#blank-btn{
+    position: absolute;
+    right: 40px;
+}
+.navbar{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-list{
+    display: block;
+    height: 35px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-list li{
+    text-align: center;
+    display: inline-block;
+    max-width: 52em;
+    min-width: 130px;
+    font-size: 1em;
+    font-weight: normal;
+    min-width: 8em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 42px;
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: #eaeaebbd;
+}
+.navbar-list li a:hover, a:visited, a:active, a:checked{
+    text-decoration: none;
+    color: white;
+}
+.navbar-list li:hover, a:active, a:visited {
+    text-decoration: none;
+    border-bottom: 2px solid #33ADA9;  
+  }
+hr{
+    border: 0;
+    height: 2px; 
+    background-color: #1F2028;
+    max-width: 49em;
+    min-width: 49em;
+}
+/*-----------------------*/
+section {
+    height: 100vh;
+    display: none; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  section:target {
+    display: block; 
+  }
+  
+  #all {
+    display: block; 
+  }
+  /*----------------------------------*/
+.title{
+    text-align: center;
+}
+.heading{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: 50px;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.sub-heading{
+    color: #eaeaebbd;
+    font-weight: 400;
+    font-size: inherit;
+    font-size: 1em;
+}
+#blankPageLink{
+    color: #eaeaebbd;
+    text-decoration: none;
+    border-bottom: 2px dotted #eaeaebbd;
+}
+.cards{
+    margin-top: 90px;
+}
+.card{
+    display: inline-block;
+    width: 32%;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-color: #1F2028;
+    border-radius: 8px;
+}
+#blankPageCard{
+    border-radius: 8px;
+    background-image: url("blank.png");
+    border: 1px dashed #eaeaebbd;
+    float: left;
+    border-radius: 8px;
+
+}
+a:hover #blankPageCard div{
+    background-color: #1F2028;
+    opacity: .7;
+    height: 330px;
+    position: relative;
+    border: 0;
+}
+a #blankPageCard{
+    position: relative;
+}
+a:hover #blankPageCard{
+    border-radius: 8px;
+    position: relative;
+    border: none;
+}
+a:hover #blankPageCard .select{
+    visibility: visible;
+    display: inline-block;
+    background-color: #33ADA9;
+    opacity: 1;
+    border: 0;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 57px);
+    border-radius: 8px;
+    color: white;
+    padding: 13.5px 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.select{
+    visibility: hidden;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+a:hover #blankPageCard div,
+a:hover #secPageCard div,
+a:hover #thirdPageCard div,
+a:hover #forthPageCard div,
+a:hover #fifthPageCard div,
+a:hover #sixthPageCard div,
+a:hover #seventhPageCard div,
+a:hover #eighthPageCard div,
+a:hover #ninthPageCard div
+{
+    background-color: #1F2028;
+    opacity: .7;
+    height: 330px;
+    position: relative;
+    border: 0;
+    height: 100%;
+    border-radius: 8px;
+    margin: 0;
+}
+a:hover #secPageCard .select,
+a:hover #thirdPageCard .select,
+a:hover #forthPageCard .select,
+a:hover #fifthPageCard .select,
+a:hover #sixthPageCard .select,
+a:hover #seventhPageCard .select,
+a:hover #eighthPageCard .select,
+a:hover #ninthPageCard .select
+{   
+    visibility: visible;
+    display: inline-block;
+    background-color: #33ADA9;
+    border: 2px solid #33ADA9;
+    opacity: 1;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 21.7%;
+    border-radius: 8px;
+    color: white;
+    padding: 13.5px 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a:hover #secPageCard .demo,
+a:hover #thirdPageCard .demo,
+a:hover #forthPageCard .demo,
+a:hover #fifthPageCard .demo,
+a:hover #sixthPageCard .demo,
+a:hover #seventhPageCard .demo,
+a:hover #eighthPageCard .demo,
+a:hover #ninthPageCard .demo
+{
+    visibility: visible;
+    display: inline-block;
+    border: 2px solid #eaeaeb;
+    background-color: #33ada916;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    right:21.7%;
+    border-radius: 8px;
+    color: white;
+    padding: 13.5px 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+a #secPageCard .demo,
+a #thirdPageCard .demo,
+a #forthPageCard .demo,
+a #fifthPageCard .demo,
+a #sixthPageCard .demo,
+a #seventhPageCard .demo,
+a #eighthPageCard .demo,
+a #ninthPageCard .demo
+{
+    visibility: hidden;
+}
+/* third card------------------------*/
+#blankPageCard{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-image: url("blank.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+
+/* second card------------------------*/
+#secPageCard
+{
+    margin-bottom: 20px;
+    background-image: url("sec.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/* third card------------------------*/
+#thirdPageCard{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-image: url("third.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*forth--------------------------------------------*/
+
+#forthPageCard{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-image: url("forth.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*fifth--------------------------------------------*/
+
+#fifthPageCard{
+    margin-bottom: 20px;
+    background-image: url("fifth.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*sixth--------------------------------------------*/
+
+#sixthPageCard{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-image: url("sixth.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*seventh--------------------------------------------*/
+
+#seventhPageCard
+{   
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-image: url("seventh.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*eighth--------------------------------------------*/
+
+#eighthPageCard{
+    margin-bottom: 20px;
+   
+    background-image: url("eighth.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
+/*ninth--------------------------------------------*/
+
+#ninthPageCard{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-image: url("ninth.png");
+    border: 0;
+    float: left;
+    position: relative;
+}
