@@ -1,7 +1,8 @@
 body{
     background-color: #3E4A84;
     background-size: cover;
-    margin: 90px;
+    margin: 88px;
+    text-align: center;
     font-family:Arial, Helvetica, sans-serif;
 }
 i{
@@ -25,13 +26,11 @@ i:hover{
     width: 100px;
 }
 .first-div #header{
-    
     font-weight: 600;
     font-size: 3.5em;
     color: #FFFFFF;
 }
 .first-div #subHeader{
-    
     color: #D6D4DF;
 }
 .button{
@@ -76,4 +75,22 @@ i:hover{
     padding: 10px 20px;   
     background-color: #ffffff1f;
     border: 2px solid #d6d4df5a;
+}
+.fi_div{
+    padding: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 800px;
+    background-color: #3602324c;
+    padding-bottom: 88px;
+    margin-top: 60px;
+}
+.fi_div p{
+    color: #d6d4dfc0;
+    display: inline-block;
+    width: 800px;
+    font-size: 17px;
+    display: inline-block;
+    margin: 10px;
 }
